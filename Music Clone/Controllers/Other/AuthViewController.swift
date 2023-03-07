@@ -20,6 +20,8 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         return webView
     }()
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Sign In"
